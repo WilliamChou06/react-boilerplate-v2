@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    color: $dark-grey;
+    font-size: 1.6rem;
+    font-family: 'Jura', sans-serif;
+    line-height: 1.6;
+}
+
+button{
+    cursor: pointer;
+    border: none;
+    color: #fff;
+}
+
+button:disabled{
+    cursor: default;
+}
+
+.is-active{
+    font-weight: bold;
+}
